@@ -18,14 +18,14 @@ const pauseTime = new Audio("/sons/pause.mp3");
 const playTime = new Audio("/sons/play.wav");
 
 //Marcadores de tempo:
-let tempoFoco = 5;
+let tempoFoco = 1500;
 let tempoCurto = 300;
 let tempoLongo = 900;
-let tempoDecorrido = 5;
+let tempoDecorrido = 1500;
 
 //AddEventListener:
 btFoco.addEventListener("click", () => {
-  tempoDecorrido = 5;
+  tempoDecorrido = 1500;
   alterarContexto("foco");
   btFoco.classList.add("active");
   resetar();
