@@ -94,7 +94,7 @@ function alterarContexto(contexto) {
 
 function contagemRegressiva() {
   if (tempoDecorrido <= 0) {
-    //endTime.play();
+    endTime.play();
     alert(`Tempo Esgotado`);
     const focoAtivo = html.getAttribute("data-contexto") == "foco";
     if (focoAtivo) {
